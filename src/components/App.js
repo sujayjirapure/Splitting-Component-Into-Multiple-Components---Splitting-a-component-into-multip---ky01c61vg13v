@@ -1,14 +1,14 @@
 import React from "react";
 import Header from "./Header";
 import Main from "./Main";
-import {Footer} from "./Footer";
+import Footer from "./Footer";
 function App() {
     
     return (
         <div className="container">
-            <header />
-            <main /> 
-            <footer />
+            <Header />
+            <Main /> 
+            <Footer />
         </div>
     );
 }
