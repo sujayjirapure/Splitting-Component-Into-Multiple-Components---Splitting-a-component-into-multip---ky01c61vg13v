@@ -6,9 +6,8 @@ function Footer(){
             <footer id="my-footer">
                 This is the footer
             </footer>
-            
         </div>
     );
 }
 
-export default Footer;
+export default {Footer};
