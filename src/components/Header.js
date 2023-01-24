@@ -4,7 +4,7 @@ function Header(){
     return (
         <div id="header">
             <header id="my-header">
-                This is the header
+                This is the header ok
             </header>
         </div>
     );
