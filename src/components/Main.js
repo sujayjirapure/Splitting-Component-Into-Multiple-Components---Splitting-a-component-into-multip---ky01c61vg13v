@@ -1,7 +1,7 @@
 import React from "react"
 
 function Main(props){
-    let {id ,content} = props
+    let {id ,content} = props;
     return (
         <div id="main">
             <main id={id}>
