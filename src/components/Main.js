@@ -1,10 +1,11 @@
 import React from "react"
 
-function Main(){
+function Main(props){
+    let {id ,content} = props
     return (
         <div id="main">
-            <main id="my-main">
-                This is the main
+            <main id={id}>
+                {content}
             </main>
         </div>
     );
