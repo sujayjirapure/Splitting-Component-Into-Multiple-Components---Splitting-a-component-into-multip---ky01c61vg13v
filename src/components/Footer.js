@@ -1,10 +1,11 @@
 import React from "react"
 
-function Footer(){
+function Footer(props){
+    let {id ,content} = props
     return (
         <div id="footer">
-            <footer id="my-footer">
-                This is the footer
+            <footer id={id}>
+                {content}
             </footer>
         </div>
     );
