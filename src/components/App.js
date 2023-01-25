@@ -6,10 +6,9 @@ function App() {
     
     return (
         <div className="container">
-            
-            <Header />
-            <Main /> 
-            <Footer />
+            <Header id="my-header" content="This is the header"/>
+            <Main id="my-main" content="This is the main"/>
+            <Footer id="my-footer" content="This is the footer"/>
         </div>
     );
 }
